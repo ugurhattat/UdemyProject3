@@ -10,6 +10,7 @@ namespace UdemyProject3.Inputs
     {
         public float Horizontal => Input.GetAxis("Horizontal");
         public float Vertical => Input.GetAxis("Vertical");
+        public bool IsRunning => Input.GetKey(KeyCode.LeftShift);
     }
 }
 

@@ -8,6 +8,7 @@ namespace UdemyProject3.Abstracts.Inputs
     {
         float Horizontal { get; }
         float Vertical { get; }
+        bool IsRunning { get; }
 
     }
 }

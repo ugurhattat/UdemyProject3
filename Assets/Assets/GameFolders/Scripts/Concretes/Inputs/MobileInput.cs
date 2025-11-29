@@ -10,6 +10,8 @@ namespace UdemyProject3.Inputs
         public float Horizontal => throw new System.NotImplementedException();
 
         public float Vertical => throw new System.NotImplementedException();
+
+        public bool IsRunning => throw new System.NotImplementedException();
     }
 }
 
